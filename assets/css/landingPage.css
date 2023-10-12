@@ -114,3 +114,26 @@ a{
     color: #fff;
 }
 /* inner container ending*/
+
+/*features started*/
+.features-content ul li{
+    display: flex;
+    gap: 16px;
+    justify-content: center; 
+    align-items: center;
+}
+.features-content ul li img{
+    padding: 8px;
+    background-color: #F5FAFF;
+    border-radius: 30px; 
+    margin: 0;
+}
+.features-content ul{
+    display: flex;
+    margin-block: 64px;
+    letter-spacing: -0.1px; 
+}
+.features-content{
+ margin-inline: 32px;
+}
+/*features ending*/
