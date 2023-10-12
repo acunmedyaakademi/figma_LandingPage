@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+}
+/* nav-bar & header started*/
+.header{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 20px;
+    border-bottom: 1px solid #EAEBF0;
+}
+.header-left{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 64px;
+}
+.resource-icon{
+    display: flex;
+    gap: 20px;
+}
+.header-links{
+    display: flex;
+    color: black;
+    text-align: center;
+    list-style: none;
+    gap: 32px;
+}
+.header-right{
+    display: inline-flex;
+    gap: 24px;
+}
+.sign-up{
+    color: #437EF7;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 12px 8px;
+}
+.log-in{
+    padding: 12px 18px;
+    height: auto;
+    border: 1px solid #437EF7;
+    border-radius: 6px;
+    color: white;
+    background-color: #437EF7;
+}
+/* nav-bar & header ending*/
