@@ -1,7 +1,5 @@
 *{
-    box-sizing: border-box;
     margin: 0 auto;
-    padding: 0;
 }
 @font-face {
     font-family: 'Inter';
@@ -15,12 +13,9 @@ body {
 a{
     text-decoration: none;
 }
-.container{
-    margin: 0 auto;
-}
+
 /* nav-bar & header started*/
 .header{
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,10 +33,12 @@ a{
 }
 .header-links{
     display: flex;
-    color: black;
     text-align: center;
     list-style: none;
     gap: 32px;
+}
+.header-links li a{
+    color: black;
 }
 .header-right{
     display: inline-flex;
@@ -63,3 +60,57 @@ a{
     background-color: #437EF7;
 }
 /* nav-bar & header ending*/
+
+/* inner container started*/
+.inner-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 48px 32px 80px 32px;
+}
+.card-text{
+    color: #272D37;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.52px; 
+}
+.check-list{
+   margin-top: 48px;
+}
+.check-list ul li{
+    display: flex;
+    align-items: center;
+    
+}
+.check-list ul li span, .check-list ul li img{
+    margin: 0;
+}
+.check-list ul li span{
+    margin-left: 12px;
+}
+.card-check{
+    width: 20px;
+    height: 20px;
+    padding: 4.5px 4px 3.5px 4px; 
+    background-color: #437EF7;
+    border-radius: 20px; 
+
+}
+.mail-card{
+    margin-top: 48px;
+    color: #919BA7; 
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 12px 16px;
+    border-radius: 6px 0 0 6px;
+    border: solid #DAE0E6;
+}
+.sbmt-bttn{
+    border-radius: 0 6px 6px 0 ;
+    background-color: #437EF7;
+    padding: 16px 12px;
+    color: #fff;
+}
+/* inner container ending*/
