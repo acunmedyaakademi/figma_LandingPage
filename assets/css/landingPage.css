@@ -211,10 +211,6 @@ a{
  .testimonial{
     background-color: #2B63D9;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
  }
 .testimonial-content {
     display: inline-block;
@@ -304,3 +300,95 @@ a{
     gap: 16px;
     color: #fff;
  }
+ /*testimonail-end*/
+
+ /*blog-post started*/
+.post-content {
+    text-align: center;
+    padding-block: 64px;
+}
+.post-content h4{
+    color: #272D37;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    letter-spacing: -0.64px; 
+    padding-bottom: 16px;
+}
+.post-content h6{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px; 
+}
+.blog-tip{
+    display: flex;
+    padding-inline: 32px;
+    align-items: flex-start;
+    gap: 40px;
+}
+.tip-container img{
+    padding-bottom: 24px;
+    border-radius: 10px;
+}
+.tip-container h4{
+    color: #272D37;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.22px; 
+    padding-bottom: 16px;
+}
+.tip-container h5{
+    color: #5F6D7E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px; 
+    padding-bottom: 16px;
+}
+.tip-container h6{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.1px; 
+}
+.tip-vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px; 
+}
+.tipv-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+.tipv-content img{
+    border-radius: 10px; 
+}
+.tipv-content h4{
+    color: #272D37;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px; /* 136.364% */
+    letter-spacing: -0.22px; 
+    padding-bottom: 4px;
+}
+.tipv-content h5{
+    color: #5F6D7E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px; 
+    padding-bottom: 16px;
+}
+.tipv-content h6{
+    color: #5F6D7E;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.1px; 
+}
+ /*blog-post end*/
