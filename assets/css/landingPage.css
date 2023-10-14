@@ -400,6 +400,8 @@ a{
  }
   /*companies logo end*/
 
+
+/*call to action started*/
   .cta-content{
     display: flex;
     flex-direction: column;
@@ -429,4 +431,13 @@ a{
 .check-boxes-inline{
     display: inline-flex;
     gap: 12px;
+}
+/*call to action end*/
+
+/*footer started*/
+.footer{
+    background-color: #151B28;
+}
+.footer-content{
+    padding-block: 64px;
 }
