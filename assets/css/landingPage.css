@@ -79,7 +79,7 @@ a{
     letter-spacing: -0.52px; 
 }
 .check-list{
-   margin-top: 48px;
+   padding-block: 48px;
 }
 .check-list ul li{
     display: flex;
@@ -101,7 +101,6 @@ a{
 
 }
 .mail-card{
-    margin-top: 48px;
     color: #919BA7; 
     font-size: 15px;
     font-weight: 400;
@@ -392,8 +391,42 @@ a{
     letter-spacing: -0.1px; 
 }
  /*blog-post end*/
+
+ /*companies logo started*/
  .section-companies{
     display: inline-flex;
     gap: 64px;
     padding-block: 64px;
  }
+  /*companies logo end*/
+
+  .cta-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px; 
+    text-align: center;
+  }
+  .cta-content h5{
+    color: #437EF7;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.1px; 
+  }
+  .cta-content h4{
+    color: #272D37;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px; /* 131.25% */
+    letter-spacing: -0.32px; 
+  }
+  .check-boxes{
+    display: inline-flex;
+    gap: 40px;
+}
+.check-boxes-inline{
+    display: inline-flex;
+    gap: 12px;
+}
