@@ -324,8 +324,8 @@ a{
 .blog-tip{
     display: flex;
     padding-inline: 32px;
-    align-items: flex-start;
     gap: 40px;
+    margin-bottom: 60px;
 }
 .tip-container img{
     padding-bottom: 24px;
@@ -392,3 +392,8 @@ a{
     letter-spacing: -0.1px; 
 }
  /*blog-post end*/
+ .section-companies{
+    display: inline-flex;
+    gap: 64px;
+    padding-block: 64px;
+ }
